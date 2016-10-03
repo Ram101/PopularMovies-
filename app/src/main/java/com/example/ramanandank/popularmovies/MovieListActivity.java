@@ -36,9 +36,8 @@ public class MovieListActivity extends AppCompatActivity {
     private MovieListAdapter mMovieListAdapter;
     private final ArrayList<MovieData> mMovieList = new ArrayList<>();
 
-    private static final String SORT_BY = "sort_by";
-    private static final String SORT_POPULAR = "popularity.desc";
-    private static final String SORT_RATING = "vote_average.desc";
+    private static final String SORT_POPULAR = "popular";
+    private static final String SORT_RATING = "top_rated";
 
     private static final String LOG_TAG = "MovieListActivity";
     @Override
@@ -109,8 +108,8 @@ public class MovieListActivity extends AppCompatActivity {
             String movieJson = null;
             String apiKey = getString(R.string.movie_api_key);
             Uri.Builder builder = new Uri.Builder();
-            builder.scheme("http").authority("api.themoviedb.org").appendPath("3").appendPath("discover").appendPath("movie")
-                    .appendQueryParameter("api_key", apiKey).appendQueryParameter("language", "en-US").appendQueryParameter(SORT_BY, movieSortOrder[0]);
+            builder.scheme("http").authority("api.themoviedb.org").appendPath("3").appendPath("movie").appendPath(movieSortOrder[0])
+                    .appendQueryParameter("api_key", apiKey).appendQueryParameter("language", "en-US");
             try {
                 URL url = new URL(builder.build().toString());
                 httpURLConnection = (HttpURLConnection) url.openConnection();
