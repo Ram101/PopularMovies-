@@ -1,0 +1,26 @@
+<resources>
+    <!--App Name -->
+    <string name="app_name">Popular Movies</string>
+    <!--sort movies by preference setting title-->
+    <string name="sort_by_popularity">Sort By Popularity</string>
+    <!-- Key name for sort movies by preference in SharedPreferences -->
+    <string name="sort_by_ratting">Sort by Top rating </string>
+    <string name="movie_detail_synopsis">Synopsis</string>
+    <string name="rating_text_view_string"> %.2f /10</string>
+    <string name="rating_text_view_string_int"> %d /10</string>
+    <array name="month_names">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </array>
+    <string name="movie_api_key">c471d2563a5a8645a5a3f2d909927892</string>
+</resources>
