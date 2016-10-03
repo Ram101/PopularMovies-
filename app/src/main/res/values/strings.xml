@@ -22,5 +22,5 @@
         <item>Nov</item>
         <item>Dec</item>
     </array>
-    <string name="movie_api_key">c471d2563a5a8645a5a3f2d909927892</string>
+    <string name="movie_api_key"><!--Enter your Api Key here  --> </string>
 </resources>
