@@ -5,9 +5,10 @@
     <string name="sort_by_popularity">Sort By Popularity</string>
     <!-- Key name for sort movies by preference in SharedPreferences -->
     <string name="sort_by_ratting">Sort by Top rating </string>
+    <string name="show_fav">Favorites</string>
     <string name="movie_detail_synopsis">Synopsis</string>
-    <string name="rating_text_view_string"> %.2f /10</string>
-    <string name="rating_text_view_string_int"> %d /10</string>
+    <string name="rating_text_view_string"> %.2f /5</string>
+    <string name="rating_text_view_string_int"> %d /5</string>
     <array name="month_names">
         <item>Jan</item>
         <item>Feb</item>
@@ -22,5 +23,7 @@
         <item>Nov</item>
         <item>Dec</item>
     </array>
-    <string name="movie_api_key"><!--Enter your Api Key here  --> </string>
+    <string name="movie_api_key"><!--Enter your Api Key here  --></string>
+    <string name="movie_reviews">Movie Reviews</string>
+    <string name="trailers">Trailers</string>
 </resources>

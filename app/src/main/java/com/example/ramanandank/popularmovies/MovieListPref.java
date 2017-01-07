@@ -13,6 +13,7 @@ class MovieListPref {
 
     static final int SORT_MOVIE_BY_POPULARITY = 0;
     static final int SORT_MOVIE_BY_RATING = 1;
+    static final int SHOW_FAV = 2;
     private static final String MOVIE_SORT_KEY = "movie.list.sort.ORDER";
 
     MovieListPref(@NonNull Context context) {

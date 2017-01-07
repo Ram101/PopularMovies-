@@ -15,7 +15,11 @@ import java.util.ArrayList;
 /**
  * Created by ramanandank on 18/09/16.
  */
-public class MovieListAdapter extends BaseAdapter {
+
+/**
+ *  Movie Adapter for the grid view
+ */
+class MovieListAdapter extends BaseAdapter {
 
     private final Context mContext;
 
